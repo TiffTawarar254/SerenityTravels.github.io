@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+html{
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+main, .main{
+	display:flex;
+	flex-direction:row;
+	padding:0 ;
+	flex-basis:auto;
+	flex-wrap: nowrap; 
+}
+.main{
+	color:purple;
+	font-family: 'Abril Fatface', cursive;
+}
+.home{
+	margin:10px;
+	padding:20px;
+	font-size:24px;
+	text-align: left;
+}
+.scroll{color:purple;
+font-size:.8rem;}
+p, a, blockquote,li{font-family: 'Quicksand', sans-serif;
+color:#696969;}
+ h2, h3, h4{	
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+span a{
+	padding-left:20px;
+	color:skyblue;
+	text-decoration: none;
+}
+span a:hover{
+	color:orange;
+}
+.destinations{
+	height: 60vh;
+	width: 80vw;
+}
+.destination{
+	height: 90vh;
+	width: 45vw;
+
+}
+.form{
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+    height: 100%;
+
+	
+
+}
+.submit{
+	padding:30px;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	color:white;
+	width:20vw;
+	background:skyblue;
+	
+	border:none;
+	font-family: 'Quicksand', sans-serif;
+
+}
+.submit:hover{
+	color:white;
+	padding:30px;
+	width:20vw;
+	background:black;
+}
+.input-items{
+	font-family: 'Quicksand', sans-serif;
+	padding:10px;
+	margin:10px;
+	width:50vw;
+	color:skyblue;
+	border:none;
+	outline:none;
+	text-transform: 4s ease-in-out;
+	border-bottom: 1px solid #ccc;
+}
+.slide{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem 1fr));
+
+
+}
+.destination1
+{
+	height: 60vh;
+	width:70vw;
+}
+.destination4
+{
+	height: 50vh;
+	width:30vw;
+}
+
+.image1{
+	max-height: 95vh;
+	max-width:50vw;
+}
+.land, .anta, {position:relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* Optional - just for DIV)*/
+    padding: 0.5% 1%;
+    }
+.link{
+	color:lightblue;
+	text-decoration: none;
+
+}
+.link:hover{
+	color:indigo;
+}
+.heading{
+	color:navy;
+}
+.link1{
+	color:#daa520;
+	text-decoration: none;
+
+}
+.link1:hover{
+	color:brown;
+}
+.lex{
+	display:flex;
+	flex:1;
+	flex-direction: row;
+	width:50vw;
+}
+.link3{
+	color:#ADB8CE;
+	text-decoration: none;
+
+}
+.link3:hover{
+	color:indigo;
+}
+.link2{
+	color:#ADB8CE;
+	text-decoration: none;
+
+}
+.link2:hover{
+	color:#F09A69;
+}
+.slide{
+	display:flex;
+
+}
